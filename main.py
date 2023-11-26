@@ -13,7 +13,7 @@ for i in range(len(latitude)):
 for i in range(len(height)):
     Y.append((((50-height[i])*2555)/0.6))
 
-image = Image.open("M-37-074.jpg")
+image = Image.open("M-37-74.jpg")
 draw = ImageDraw.Draw(image)
 draw.line((X[0],Y[0], X[1],Y[1]), fill=250)
 draw.line((X[1],Y[1], X[2],Y[2]), fill=250)
